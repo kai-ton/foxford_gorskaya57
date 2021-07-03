@@ -4,4 +4,5 @@ def f(a, b):
     return f(b, a % b)
 
 
-print(f(int(input()), int(input())))
+a, b = map(int, input().split())
+print(f(a, b))
