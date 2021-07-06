@@ -1,6 +1,6 @@
 def f(a, b):
-    if b == 0:
-        return a
+    if a * b == 0:
+        return max(a, b)
     return f(b, a % b)
 
 
